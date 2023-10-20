@@ -1,0 +1,16 @@
+body {
+  font-size: 2rem;
+}
+
+.listElement {
+  display: flex;
+}
+
+.fitleredWord {
+  background-color: red;
+  border-radius: 0.3rem;
+}
+
+pre {
+  margin: 2px 0;
+}
