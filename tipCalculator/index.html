@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="card">
+        <h1 class="center" >Tip Calculator</h1>
+        <span class="insutructions">Enter the bill amoutn and tip percertage to calculte the total.</span>
+          <label>Bill Amount:</label>
+          <input name="amount" type="number" id="amount" />
+          <label >Tip Percentage:</label>
+          <input name="tip" type="number" id="tip" />
+    
+          <button onclick="calculatTip()" >Calculate</button>
+        </form>
+    
+        <div class="totalContainer" >Total: <div class="total" id="total"></div> </div>
+
+    </div>
+ 
+  </body>
+</html>
+
+<script type="text/javascript" src="./lib.js"></script>
+
+
+<!--
+https://www.100jsprojects.com/project/tip-calculator
+In this project, our aim is to build a modern tip calculator. 
+The project's primary interface comprises a container labeled "Tip Calculator" with two input fields:
+ one for the bill amount and the other for the tip percentage. 
+ The tip calculator has a modern design that is styled using CSS. 
+ We utilized JavaScript to obtain the values of the two input fields and calculate the total amount based on these values.
+-->
+
+

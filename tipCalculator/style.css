@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+}
+
+input {
+  margin-bottom: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+label {
+  margin-bottom: 0.4rem;
+}
+
+button {
+  background-color: green;
+  border: 1px green;
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 26rem;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 6px;
+}
+
+.insutructions {
+  font-size: 12;
+  margin-bottom: 1rem;
+}
+
+.totalContainer {
+  display: flex;
+}
+
+.total {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
